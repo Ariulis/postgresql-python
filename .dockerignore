@@ -1,0 +1,9 @@
+.git/
+.venv/
+log/
+.dockerignore
+.gitignore
+docker-compose.yml
+Dockerfile
+poetry.lock
+README.md

@@ -26,6 +26,9 @@ except Exception as _ex:
     logger.exception(_ex)
 else:
     conn.autocommit = True
+    with conn.cursor() as cursor:
+        with open('createdb.sql') as f:
+            cursor.execute(f.read())
     print(f'{Fore.GREEN}[INFO] Database is connected...')
 
 
