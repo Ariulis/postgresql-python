@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pgsql"
+version = "0.1.0"
+description = ""
+authors = ["Ariulis <andrey59995@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2-binary = "^2.9.3"
+python-dotenv = "^0.20.0"
+loguru = "^0.6.0"
+colorama = "^0.4.5"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
