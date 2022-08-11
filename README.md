@@ -8,4 +8,6 @@ env/.env file:
 
 to run app:
 
-```docker-compose --env-file env/.env up --build```
+```
+docker-compose --env-file env/.env up --build
+```
