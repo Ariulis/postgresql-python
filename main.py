@@ -34,7 +34,7 @@ else:
 
 @logger.catch
 def main():
-    sleep(2)
+    sleep(20000)
     try:
         conn.close()
     except Exception as _ex:
