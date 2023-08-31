@@ -11,6 +11,11 @@ To run app:
 ```
 docker-compose --env-file env/.env up --build
 ```
+To get into the container 'db' (postgresql):
+
+```
+docker-compose exec db --username=<username> --dbname=<db name>
+```
 
 Tasks:
 1. Add data to 'customer' table
